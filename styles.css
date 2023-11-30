@@ -1,0 +1,156 @@
+*{
+    padding:0;
+    margin: 0;   
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+nav{
+    background-color: #2774f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.Search{
+    background-color: white;
+    padding: 10px;
+    width: 400px;
+    height: 20px;
+    margin: 0px 15px;
+    box-shadow: -7px -7px 10px rgba(0, 0, 0,0.1),
+    7px 7px 10px rgba(0, 0, 0,0.1);
+    border-radius: 2px;
+}
+.Search input{
+    width: 400px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+.Navlink{
+    margin:0 10px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-family: Roboto, Arial, sans-serif;
+}
+h4{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.Navlink:hover{
+    color: black;
+}
+.img{
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.container{
+    display: flex;
+    padding-top: 22px;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+.container1{
+    display: flex;
+    padding-left: 25px;
+}
+.container2{
+    display: flex;
+    padding-left: 25px;
+}
+.spec{
+    padding-top: 22px;
+    padding-left: 5px;
+    line-height: 150%;
+}
+.list{
+    padding-top: 8px;
+    padding-left: 17px;
+}
+li{
+    line-height: 30px;
+}
+.price{
+    padding-top: 22px;
+    padding-left: 25%;
+    line-height: 150%;
+}
+.green, span{
+    color: green;
+}
+.rating{
+    background-color: green; 
+    display: inline-block; 
+    color: white; 
+    padding: 2px 4px 2px 6px; 
+    border-radius: 3px;
+}
+.reviews{
+    color: gray;
+
+}
+.outerdiv{
+    padding-top: 10px;
+}
+.spacing{
+    line-height: 250px;
+}
+.contain{
+    display: flex;
+
+}
+.iphone1{
+    color: #2973e2;
+}
+.mainfooter{
+    display: flex;
+    background-color: #172337;
+}
+h6{
+    color: gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.about{
+    padding: 40px;
+    padding-left: 100px;
+}
+.help{
+    padding: 40px;
+    padding-left: 100px;
+
+}
+.policy{
+    padding: 40px;
+    padding-left: 100px;
+
+}
+.social{
+    padding: 40px;
+    padding-left: 100px;
+}
+.MailUs{
+    padding: 40px;
+    padding-left: 200px;
+}
+.registered{
+    padding: 40px;
+    padding-left: 200px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+p{
+    line-height: 30px;
+}
