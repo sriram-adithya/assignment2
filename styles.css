@@ -4,6 +4,7 @@
     font-family: Roboto,Arial,sans-serif;
     font-weight: 400;
     font-size: 16px;
+
 }
 nav{
     background-color: #2774f0;
@@ -109,9 +110,11 @@ li{
 .iphone1{
     color: #2973e2;
 }
-.mainfooter{
+.footerContainer{
     display: flex;
     background-color: #172337;
+    overflow-x: auto;
+
 }
 h6{
     color: gray;
@@ -135,14 +138,19 @@ h6{
 .social{
     padding: 40px;
     padding-left: 100px;
+    white-space: nowrap;
 }
 .MailUs{
     padding: 40px;
-    padding-left: 200px;
+    background-color: #172337;
+    padding-left: 6%;
+    border-left: 1px solid white;
+
 }
 .registered{
     padding: 40px;
-    padding-left: 200px;
+    font-size: 12px;
+    background-color: #172337;
 }
 a{
     text-decoration: none;
@@ -153,4 +161,7 @@ a:hover{
 }
 p{
     line-height: 30px;
+}
+ul{
+    list-style: none;
 }
