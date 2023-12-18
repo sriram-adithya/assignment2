@@ -1,167 +1,181 @@
 *{
-    padding:0;
-    margin: 0;   
-    font-family: Roboto,Arial,sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
 }
 nav{
-    background-color: #2774f0;
+    background-color: #2874f0;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 10px 0px;
 }
-.Search{
+.plus-color{
+    color: orange;
+    font-weight: 100;
+}
+.logo p{
+    color: white;
+    font-style: italic;
+    position: relative;
+    top: -5px;
+    font-size: 11px;
+}
+.searchbar{
     background-color: white;
-    padding: 10px;
-    width: 400px;
-    height: 20px;
+    padding: 8px;
+    width: 420px;
     margin: 0px 15px;
-    box-shadow: -7px -7px 10px rgba(0, 0, 0,0.1),
-    7px 7px 10px rgba(0, 0, 0,0.1);
-    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    color: #2874f0;
+    border-radius:2px;
+    box-shadow: -7px -7px 10px rgb(0,0,0,0.1),
+    7px 7px 10px rgb(0,0,0,0.1);
 }
-.Search input{
-    width: 400px;
+.searchbar input{
+    width: 380px;
     border: none;
     outline: none;
     font-size: 14px;
+    height: 20px;
 }
-.Navlink{
-    margin:0 10px;
+.loginbtn{
+    padding: 7px 40px;
+    margin-left: 10px;
     font-size: 16px;
+    font-weight: 550px;
+    outline: none;
+    color: #2874f0;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    cursor: pointer;
+    /* box-shadow: -7px -7px 10px rgb(0,0,0,0.1),
+    7px 7px 10px rgb(0,0,0,0.1); */
+}
+.navlink{
+    margin: 0 35px;
+    font-size: 18px;
     color: white;
     text-decoration: none;
-    font-family: Roboto, Arial, sans-serif;
 }
-h4{
-    font-weight: bold;
-    font-size: 18px;
+.angleDownIcon i{
+    font-size: 10px;
+}
+.cartlogo i{
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+button{
+    border: none;
+    background-color: white;
+    color: #2874f0;
+    outline: none;
+    cursor: pointer;
 }
 
-.Navlink:hover{
-    color: black;
-}
-.img{
-    margin-top: 20px;
-    margin-left: 20px;
-
-}
+/* body Starting from here  */
 .container{
     display: flex;
-    padding-top: 22px;
-    padding-left: 25px;
     box-sizing: border-box;
 }
-.container1{
-    display: flex;
-    padding-left: 25px;
+.image{
+margin-top: 24px;
+margin-left: 32px;
+
 }
-.container2{
-    display: flex;
-    padding-left: 25px;
+.title{
+
+margin-top: 24px;
+padding-left: 50px;
+
 }
-.spec{
-    padding-top: 22px;
-    padding-left: 5px;
-    line-height: 150%;
+.Reviews{
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: black;
 }
-.list{
-    padding-top: 8px;
-    padding-left: 17px;
-}
-li{
-    line-height: 30px;
-}
-.price{
-    padding-top: 22px;
-    padding-left: 25%;
-    line-height: 150%;
-}
-.green, span{
-    color: green;
-}
-.rating{
-    background-color: green; 
-    display: inline-block; 
-    color: white; 
-    padding: 2px 4px 2px 6px; 
+.ratings{
+    background-color: green;
+    color: white;
     border-radius: 3px;
 }
-.reviews{
-    color: gray;
-
+.featuredList{
+    padding: 20px 0px 0px 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
 }
-.outerdiv{
-    padding-top: 10px;
+.price{
+    margin-top: 24px;
+    padding-left: 500px;
+    line-height: 1.6;
 }
-.spacing{
-    line-height: 250px;
+del{
+    color: grey;
 }
-.contain{
-    display: flex;
-
+.freeDelivery{
+    font-size: small;
 }
-.iphone1{
-    color: #2973e2;
+.bank{
+color: green;
+}
+p span{
+    color: green;
+}
+.line{
+    opacity: 30%;
+    margin-top: 50px;
 }
 .footerContainer{
-    display: flex;
     background-color: #172337;
-    overflow-x: auto;
-
+    color: white;
+    line-height: 1.6;
+    padding:40px 0px 40px 65px;
+    display: flex;
 }
-h6{
-    color: gray;
-    padding-top: 10px;
+.headingAbout{
+    color: #878787;
     padding-bottom: 10px;
 }
-.about{
-    padding: 40px;
-    padding-left: 100px;
+.headingHelp{
+    color: #878787;
+    padding-bottom: 10px;
+}
+.headingPolicy{
+    color: #878787;
+    padding-bottom: 10px;
+}
+.headingSocial{
+    color: #878787;
+    padding-bottom: 10px;
+}
+.headingMailUs{
+    color: #878787;
+    padding-bottom: 10px;
+}
+.RegiseredOfficeAdress{
+    color: #878787;
+    padding-bottom: 10px;
 }
 .help{
-    padding: 40px;
     padding-left: 100px;
-
 }
 .policy{
-    padding: 40px;
     padding-left: 100px;
-
 }
 .social{
-    padding: 40px;
     padding-left: 100px;
-    white-space: nowrap;
 }
-.MailUs{
-    padding: 40px;
-    background-color: #172337;
-    padding-left: 6%;
-    border-left: 1px solid white;
-
+.mailUs{
+    padding-left: 30px;
+    border-left: 1px solid #454d5e;
+    margin-left: 200px;
 }
-.registered{
-    padding: 40px;
-    font-size: 12px;
-    background-color: #172337;
-}
-a{
-    text-decoration: none;
-    color: white;
-}
-a:hover{
-    text-decoration: underline;
-}
-p{
-    line-height: 30px;
-}
-ul{
-    list-style: none;
+.officeAddress{
+    padding-left: 100px;
 }
